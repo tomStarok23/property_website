@@ -1,0 +1,195 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Josefin Sans";
+}
+
+header {
+  background-image: url("https://cdn.pixabay.com/photo/2019/10/17/02/39/villa-4555824_960_720.jpg");
+  width: 100%;
+  height: 800px;
+
+  background-size: cover;
+}
+.nav-list {
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+  padding-right: 20px;
+  flex-wrap: wrap;
+  list-style: none;
+  font-size: 16px;
+  gap: 2rem;
+  padding-bottom: 300px;
+}
+
+a:link {
+  text-decoration: none;
+  font-family: "Poppins";
+}
+
+ul li a {
+  color: white;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-size: 80px;
+  text-shadow: 2px 2px #2c3333;
+  font-stretch: expanded;
+}
+
+h2 {
+  color: black;
+  text-align: center;
+  font-size: 60px;
+  font-stretch: expanded;
+  padding-top: 100px;
+  margin-bottom: -84px;
+  font-family: "Josefin Sans";
+}
+
+.subtitle {
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  text-shadow: 2px 2px #2c3333;
+  font-stretch: extra-expanded;
+}
+/*styling properties 1*/
+.card-1 {
+  width: 70%;
+  margin: auto;
+  padding-top: 200px;
+}
+
+.property-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.property-1 img {
+  width: 50%;
+  float: left;
+  flex-basis: 60%;
+  margin-right: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+/*styling properties 2*/
+
+.card-2 {
+  width: 70%;
+  margin: auto;
+  padding-top: 200px;
+}
+
+.property-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.property-2 img {
+  width: 50%;
+  float: right;
+  flex-basis: 60%;
+  order: 2;
+  margin-left: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+h4 {
+  font-family: "Josefin Sans";
+  font-size: 30px;
+}
+
+.property-description {
+  font-family: "Poppins";
+}
+
+#property-description-left {
+  text-align: right;
+  margin-left: 70px;
+}
+
+section {
+  text-align: center;
+  padding-top: 200px;
+  height: 600px;
+}
+
+.contact-table {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  flex: 1;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0;
+  margin-top: 50px;
+}
+
+.fa-solid {
+    font-size: 3rem;
+    color: black;
+    padding-bottom: 10px;
+}
+
+h5 {
+  font-family: "Josefin Sans";
+  font-size: 25px;
+}
+
+#contact-table-text {
+  font-family: "Poppins";
+  font-size: 16px;
+}
+
+.office {
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  width: 270px;
+  height: 250px;
+  padding-top: 30px;
+}
+
+.phone {
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+
+  width: 270px;
+  height: 250px;
+  padding-top: 30px;
+}
+
+.fax {
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+
+  width: 270px;
+  height: 250px;
+  padding-top: 30px;
+}
+
+.email {
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+
+  width: 270px;
+  height: 250px;
+  padding-top: 30px;
+}
+
+.contact-table {
+  margin-bottom: 200px;
+}
+
+footnote {
+  font-family: "Poppins";
+}
